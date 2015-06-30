@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Analytics</string>
+    <string name="send_event">Send Event</string>
+    <string name="send_custom_event">Send a Custom Event</string>
+    <string name="open_new_page">Open New Page</string>
+    <string name="hint_event_key">Event Key</string>
+    <string name="hint_event_value">Event Value</string>
+</resources>
