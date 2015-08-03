@@ -1,22 +1,22 @@
 # LAS-Demo-Analytics-Android
 
-## 简介
+## Overview
 
-Analytics 是 LAS SDK 的一个 Sample，该项目依赖于 LAS 的基础模块。通过该应用你可以学习和了解基于 LAS SDK 的数据分析操作。
+Analytics is a sample of LAS SDK, and it relies on the basic module of LAS. This app shows the data analytics operation based on LAS SDK. 
 
-整个项目一共分为以下三个画面
+There are 3 pages in this project: 
 - *OnlyActivity*
-	- 介绍了如何在普通的 Activity 中统计 Session 时长和 Page View。
+	- Introduce how to calculate the Session Length and Page View of a general Activity.
 - *WithFragmentActivity*
-	- 介绍了如何在含有 Fragment 的 Activity 中统计 Session时长 和 Page View。
+	- Introduce how to calculate the Session Length and Page View of an Activity with Fragment. 
 - *EventActivity*
-	- 介绍了如何统计自定义事件。
+	- Introduce how to calculate customized events.
 
-## 效果
+## Effect
 
 ![capture](capture/analytics.gif)
 
-## 使用
+## How to Use
 
-1. 打开 Android Studio 或 IDEA ，点击菜单项 `File -> Open ` 选择 `setting.gradle` 文件导入工程
-2. 打开 `App.java` 文件，使用你自己的 `APP Id` 和 `API KEY` 替换该文件中已定义的同名常量。
+1. Open Android Studio or IDEA, click `File -> Open `, select and import `setting.gradle`. 
+2. Open `App.java` and replace the defined constants with your own `APP Id` and `API KEY`. 
