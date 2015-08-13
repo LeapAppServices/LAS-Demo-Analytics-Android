@@ -1,8 +1,8 @@
-# LAS-Demo-Analytics-Android
+# LeapCloud-Demo-Analytics-Android
 
 ## 简介
 
-Analytics 是 LAS SDK 的一个 Sample，该项目依赖于 LAS 的基础模块。通过该应用你可以学习和了解基于 LAS SDK 的数据分析操作。
+Analytics 是 LeapCloud SDK 的一个 Sample，该项目依赖于 LeapCloud 的基础模块。通过该应用你可以学习和了解基于 LeapCloud SDK 的数据分析操作。
 
 整个项目一共分为以下三个画面
 - *OnlyActivity*
@@ -14,7 +14,7 @@ Analytics 是 LAS SDK 的一个 Sample，该项目依赖于 LAS 的基础模块�
 
 ## 效果
 
-![capture](capture/analytics.gif)
+![capture](../../capture/analytics.gif)
 
 ## 使用
 
