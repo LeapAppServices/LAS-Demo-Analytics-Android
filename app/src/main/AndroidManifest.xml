@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="as.leap.demo.analytics">
+    package="com.maxleap.demo.analytics">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".App"
+        android:name="com.maxleap.demo.analytics.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,11 +16,11 @@
 
         <!-- channel -->
         <meta-data
-            android:name="las_channel"
+            android:name="ml_channel"
             android:value="google_play" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.maxleap.demo.analytics.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,9 +29,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".OnlyActivity" />
-        <activity android:name=".WithFragmentActivity" />
-        <activity android:name=".EventActivity" />
+        <activity android:name="com.maxleap.demo.analytics.OnlyActivity" />
+        <activity android:name="com.maxleap.demo.analytics.WithFragmentActivity" />
+        <activity android:name="com.maxleap.demo.analytics.EventActivity" />
     </application>
 
 </manifest>

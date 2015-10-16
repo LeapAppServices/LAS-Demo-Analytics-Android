@@ -1,4 +1,4 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

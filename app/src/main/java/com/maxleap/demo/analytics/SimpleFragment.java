@@ -1,4 +1,4 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import as.leap.LASAnalytics;
+import com.maxleap.MLAnalytics;
 
 public class SimpleFragment extends Fragment {
 
@@ -47,14 +47,14 @@ public class SimpleFragment extends Fragment {
     public void onResume() {
         super.onResume();
         //page view
-        LASAnalytics.onPageStart(mPageName);
+        MLAnalytics.onPageStart(mPageName);
     }
 
     @Override
     public void onPause() {
         super.onPause();
         //page view
-        LASAnalytics.onPageEnd(mPageName);
+        MLAnalytics.onPageEnd(mPageName);
     }
 
     public static SimpleFragment newInstance(int num, String pageName) {

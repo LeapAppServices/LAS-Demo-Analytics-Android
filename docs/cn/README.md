@@ -1,8 +1,8 @@
-# LeapCloud-Demo-Analytics-Android
+# MaxLeap-Demo-Analytics-Android
 
 ## 简介
 
-Analytics 是 LeapCloud SDK 的一个 Sample，该项目依赖于 LeapCloud 的基础模块。通过该应用你可以学习和了解基于 LeapCloud SDK 的数据分析操作。
+Analytics 是 MaxLeap SDK 的一个 Sample，该项目依赖于 MaxLeap 的基础模块。通过该应用你可以学习和了解基于 MaxLeap SDK 的数据分析操作。
 
 整个项目一共分为以下三个画面
 - *OnlyActivity*

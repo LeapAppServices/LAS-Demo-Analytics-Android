@@ -1,4 +1,4 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -29,7 +29,7 @@ public class MainActivity extends ListActivity {
         String testName = tests[position];
         try {
             Class<?> clazz = Class
-                    .forName("as.leap.demo.analytics." + testName);
+                    .forName("com.maxleap.demo.analytics." + testName);
             Intent intent = new Intent(this, clazz);
             startActivity(intent);
         } catch (ClassNotFoundException e) {

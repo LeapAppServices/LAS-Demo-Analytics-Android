@@ -1,8 +1,8 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.app.Application;
 
-import as.leap.LASConfig;
+import com.maxleap.MaxLeap;
 
 public class App extends Application {
 
@@ -16,14 +16,14 @@ public class App extends Application {
 
         if (APP_ID.startsWith("Replace") || API_KEY.startsWith("Replace")) {
             throw new IllegalArgumentException("Please replace with your app id and api key first before" +
-                    "using LAS SDK.");
+                    "using MaxLeap SDK.");
         }
 
 		/*
-         * Fill in this section with your LAS credentials
+         * Fill in this section with your MaxLeap credentials
 		 */
-        LASConfig.setLogLevel(LASConfig.LOG_LEVEL_VERBOSE);
-        LASConfig.initialize(this, APP_ID, API_KEY);
+        MaxLeap.setLogLevel(MaxLeap.LOG_LEVEL_VERBOSE);
+        MaxLeap.initialize(this, APP_ID, API_KEY);
     }
 
 }

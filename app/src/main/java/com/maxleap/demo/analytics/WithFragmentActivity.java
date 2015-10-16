@@ -1,14 +1,13 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import as.leap.LASAnalytics;
+import com.maxleap.MLAnalytics;
 
 public class WithFragmentActivity extends AppCompatActivity {
 
@@ -57,13 +56,13 @@ public class WithFragmentActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         //session
-        LASAnalytics.onResume(this);
+        MLAnalytics.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         //session
-        LASAnalytics.onPause(this);
+        MLAnalytics.onPause(this);
     }
 }

@@ -1,4 +1,4 @@
-package as.leap.demo.analytics;
+package com.maxleap.demo.analytics;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import as.leap.LASAnalytics;
-import as.leap.LASConfig;
+import com.maxleap.MLAnalytics;
 
 public class OnlyActivity extends AppCompatActivity {
 
@@ -39,12 +38,12 @@ public class OnlyActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        
+
         //session
-        LASAnalytics.onResume(this);
+        MLAnalytics.onResume(this);
 
         //page view
-        LASAnalytics.onPageStart("activity " + count);
+        MLAnalytics.onPageStart("activity " + count);
     }
 
     @Override
@@ -52,9 +51,9 @@ public class OnlyActivity extends AppCompatActivity {
         super.onPause();
 
         //session
-        LASAnalytics.onPause(this);
+        MLAnalytics.onPause(this);
 
         //page view
-        LASAnalytics.onPageEnd("activity " + count);
+        MLAnalytics.onPageEnd("activity " + count);
     }
 }
